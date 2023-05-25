@@ -8,6 +8,8 @@ RUN apt update -y && apt install -y proxychains \
     tor \
     curl \
     telnet \
+    ssh \
+    iputils-ping \
     netcat-traditional \
     libcap2-bin \
     net-tools \
